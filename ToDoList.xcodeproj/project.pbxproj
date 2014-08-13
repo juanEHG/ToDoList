@@ -19,6 +19,7 @@
 		0D7C16B6199A50A200FD6B6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7C169E199A50A100FD6B6E /* UIKit.framework */; };
 		0D7C16BE199A50A200FD6B6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D7C16BC199A50A200FD6B6E /* InfoPlist.strings */; };
 		0D7C16C0199A50A200FD6B6E /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C16BF199A50A200FD6B6E /* ToDoListTests.m */; };
+		0D7C16CA199A609800FD6B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7C16C9199A609800FD6B6E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0D7C16BB199A50A200FD6B6E /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		0D7C16BD199A50A200FD6B6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D7C16BF199A50A200FD6B6E /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		0D7C16C9199A609800FD6B6E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				0D7C16A9199A50A100FD6B6E /* AppDelegate.h */,
+				0D7C16C9199A609800FD6B6E /* Main.storyboard */,
 				0D7C16AA199A50A100FD6B6E /* AppDelegate.m */,
 				0D7C16AC199A50A200FD6B6E /* Images.xcassets */,
 				0D7C16A1199A50A100FD6B6E /* Supporting Files */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D7C16CA199A609800FD6B6E /* Main.storyboard in Resources */,
 				0D7C16A5199A50A100FD6B6E /* InfoPlist.strings in Resources */,
 				0D7C16AD199A50A200FD6B6E /* Images.xcassets in Resources */,
 			);
