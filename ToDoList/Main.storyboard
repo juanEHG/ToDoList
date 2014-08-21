@@ -300,6 +300,9 @@
                                 <segue destination="t3w-TD-TLp" kind="unwind" unwindAction="unwindToList:" id="ZMg-6V-PFg"/>
                             </connections>
                         </barButtonItem>
+                        <connections>
+                            <outlet property="titleView" destination="U7N-P3-g0e" id="rac-nY-clX"/>
+                        </connections>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Z1-Xz-6O0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -328,6 +331,7 @@
         <!--Navigation Controller-->
         <scene sceneID="rQX-9G-QyI">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="efT-ug-bpN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ghm-4K-FeH" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uJ0-gB-k9v">
@@ -339,7 +343,6 @@
                         <segue destination="zPC-mg-IeB" kind="relationship" relationship="rootViewController" id="Ug6-9w-er3"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="efT-ug-bpN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2383" y="519"/>
         </scene>
