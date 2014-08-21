@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EventItem.h"
+#import "EventItem.h"
+
 
 @interface CreateAnEventViewController : UIViewController
+
+@property   EventItem *eventItem;
 
 @end

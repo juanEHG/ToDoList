@@ -8,6 +8,7 @@
 
 #import "EventsListTableViewController.h"
 #import "EventItem.h"
+#import "CreateAnEventViewController.h"
 
 @interface EventsListTableViewController ()
 
@@ -34,7 +35,14 @@
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue
 {
+    CreateAnEventViewController *source =[segue sourceViewController];
+    EventItem *item =source.eventItem;
     
+    if (item != nil){
+        return;
+    }
+    [self.EventItems addObject:item];
+    [self.tableView reloadData];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style

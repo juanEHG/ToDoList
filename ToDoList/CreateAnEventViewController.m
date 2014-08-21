@@ -10,9 +10,23 @@
 
 @interface CreateAnEventViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *doneButton;
+
 @end
 
 @implementation CreateAnEventViewController
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if (sender != self.doneButton) return;
+    if (sender != self.textField.text.length > 0)
+    {
+        self.eventItem = [[EventItem alloc] init];
+        self.eventItem.itemName = self.textField.text;
+        self.eventItem.completed = NO;
+    }
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
